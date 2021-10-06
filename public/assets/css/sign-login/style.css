@@ -1,0 +1,121 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Poppins'; 
+	src: url('../../font/Poppins.ttf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+	background: #FFFFFF !important;
+    overflow-x: hidden;
+    height: 100% !important;
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+	font-family: 'Poppins', sans-serif !important;
+}
+
+.container-fluid, .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, 
+.col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, 
+.col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, 
+.col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, 
+.col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, 
+.col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.container-fluid {
+    height: 100% !important;
+}
+
+img {
+    height: 100vh;
+}
+
+.cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-7 {
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.breadcrumb {}
+
+form {
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 48px;
+    color: #012A4A;
+}
+
+label {
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #012A4A;
+    margin-top: 20px;
+}
+
+input { 
+    width: 100% !important;
+    background: rgba(196, 196, 196, 0.24);
+	height: 62px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+
+input:focus, button:focus {
+    outline: none !important;
+}
+
+button {
+    margin-top: 3rem !important;
+    width: 80%;
+    height: 64px;
+    background: #21A8FB;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px !important;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+a {
+    font-size: 18px;
+    text-align: center;
+    color: #21A8FB;
+    margin-top: 2rem;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: inherit;
+}

@@ -1,0 +1,243 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------
+[Isi]
+
+
+0. Default
+1. Nav
+2. Top Content
+3. Content
+4. Footer
+-------------------------------------------------------------------*/
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 800px) {
+
+    /*-------------------------------------------------------------------
+    [0. Default]
+    *------------------------------------------------------------------*/
+    nav {
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
+
+    nav ul li {
+        margin: 0px !important;
+    }
+
+    nav .mobile {
+        display: unset !important;
+    }
+    
+    nav #button {
+        display: none;
+    }
+
+    /*-------------------------------------------------------------------
+    [1. Nav]
+    *------------------------------------------------------------------*/
+    nav {
+        display: flex;
+        background: #FFFFFF !important;
+        height: unset;
+    }
+
+    nav img {  
+        width: 55px !important;
+    }
+
+    /*-------------------------------------------------------------------
+    [2. Top Content]
+    *------------------------------------------------------------------*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+        "content-1 content-1 content-1 content-1"
+        "content-2 content-2 content-2 content-2";
+    }
+
+    .content-2 { 
+        display: none;
+        grid-area: content-2;
+    }
+
+    /*-------------------------------------------------------------------
+    [3. Content]
+    *------------------------------------------------------------------*/
+    #content {
+        margin: 3rem 0rem 0rem 0rem;
+    }
+
+    #content h2 {
+        width: 100%;
+        padding-left: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    #content h3 {
+        font-size: 18px !important;
+        line-height: 25px;
+    }
+
+    #content hr {
+        width: 50px;
+        margin: 0rem 0rem 0rem 1rem;
+    }
+
+    #content #col-card {
+        padding: 1rem 1rem !important;
+    }
+
+    /*-------------------------------------------------------------------
+    [4. Footer]
+    *------------------------------------------------------------------*/
+    .footer {
+        margin-top: 3rem !important;
+        padding: 0px 3rem;
+        width: 100%;
+    }
+
+    .footer, .footer .col-sm-5, .footer .col, .footer h3, .footer p {
+        width: 100%;
+    }
+
+    .footer .col {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-basis: unset !important;
+    }
+
+    .footer img:nth-child(1) {
+        display: none;
+    }
+
+    .footer img:nth-child(2) {
+        display: unset;
+    }
+
+    .footer h3, .footer h3 {
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+    /*-------------------------------------------------------------------
+    [0. Default]
+    *------------------------------------------------------------------*/
+    nav, .hero {
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
+
+    /*-------------------------------------------------------------------
+    [1. Nav]
+    *------------------------------------------------------------------*/
+    nav {
+        display: flex;
+        background: #FFFFFF !important;
+        height: unset;
+    }
+
+    nav ul li {
+        margin: 0px !important;
+    }
+
+    nav img {  
+        width: 55px !important;
+    }
+
+    nav .mobile {
+        display: unset !important;
+    }
+    
+    nav #button {
+        display: none;
+    }
+    
+    /*-------------------------------------------------------------------
+    [2. Top Content]
+    *------------------------------------------------------------------*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+        "content-1 content-1 content-1 content-1"
+        "content-2 content-2 content-2 content-2";
+    }
+
+    .content-2 { 
+        display: none;
+        grid-area: content-2;
+    }
+
+    /*-------------------------------------------------------------------
+    [3. Content]
+    *------------------------------------------------------------------*/
+    #content {
+        margin: 3rem 0rem 0rem 0rem;
+    }
+
+    #content h2 {
+        width: 100%;
+        padding-left: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    #content h3 {
+        font-size: 18px !important;
+        line-height: 25px;
+    }
+
+    #content hr {
+        width: 50px;
+        margin: 0rem 0rem 0rem 1rem;
+    }
+
+    #content #col-card {
+        padding: 1rem 1rem !important;
+    }
+
+    /*-------------------------------------------------------------------
+    [4. Footer]
+    *------------------------------------------------------------------*/
+    .footer {
+        margin-top: 3rem !important;
+        padding: 0px 3rem;
+        width: 100%;
+    }
+
+    .footer, .footer .col-sm-5, .footer .col, .footer h3, .footer p {
+        width: 100%;
+    }
+
+    .footer .col {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-basis: unset !important;
+    }
+
+    .footer img:nth-child(1) {
+        display: none;
+    }
+
+    .footer img:nth-child(2) {
+        display: unset;
+    }
+
+    .footer h3, .footer h3 {
+        margin-top: 30px !important;
+    }
+}

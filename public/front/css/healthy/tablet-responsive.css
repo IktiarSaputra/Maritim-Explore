@@ -1,0 +1,288 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+@media only screen and (min-width: 576px) and (max-width: 800px) {
+    nav, #trending, .covid, #protokol-3m-covid, #rumah-sakit, .footer {
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
+
+    nav {
+        display: flex;
+        background: #FFFFFF !important;
+        height: unset;
+    }
+
+    nav img {  
+        width: 55px !important;
+    }
+
+    nav ul li {
+        margin: 0px !important;
+    }
+
+    nav #button {
+        width: unset !important;
+        height: 100% !important;
+        padding: 0px;
+        box-shadow: none;
+        background: none;
+        border-radius: 0px !important;
+        border-top: 2px solid #C4C4C4 !important;
+        color: #000000;
+        text-align: start;
+        padding-top: 10px;
+    }
+
+    #nav-home {
+        border-bottom: 0px solid #21A8FB;
+        border-radius: 0px;
+    }
+
+    .covid {
+        margin-top: 2rem;
+    }
+
+    .covid .col-md-auto {
+        border-right: 0px solid #C4C4C4;
+        border-left: 0px solid #C4C4C4;
+        padding: 0 !important;
+        margin-top: unset !important;
+    }
+
+    .covid .col {
+        line-height: 30px;
+    }
+
+    .covid b {
+        font-size: 18px;
+    }
+
+    .covid span {
+        font-size: 16px;
+    }
+
+    .covid .container {
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+    }
+
+    .covid .row {
+        flex-wrap: unset !important;
+    }
+
+    .covid .row, .covid svg {
+        margin-top: 2rem;
+    }
+
+    #protokol-3m-covid {
+        margin-top: 1rem !important;
+        display: unset !important;
+    }
+
+    #protokol-3m-covid .col-sm-6 {
+        width: 100%;
+        max-width: 100% !important;
+        padding: 1rem 2rem !important;
+        justify-content: center !important;
+    }
+
+    #protokol-3m-covid svg {
+        width: 50%;
+    }
+
+    #protokol-3m-covid h2 {
+        width: 100% !important;
+        font-size: 14px !important;
+        text-align: center;
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+
+    table th, table td {
+        font-size: 13px !important;
+    }
+    
+    #rumah-sakit {
+        background: rgba(196, 196, 196, 0.15) !important;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    #rumah-sakit h2 {
+        font-size: 24px !important;
+    }
+
+    .footer {
+        margin-top: 3rem !important;
+        padding: 0px 3rem;
+        width: 100%;
+    }
+
+    .footer, .footer .col-sm-5, .footer .col, .footer h3, .footer p {
+        width: 100%;
+    }
+
+    .footer .col {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-basis: unset !important;
+    }
+
+    .footer img:nth-child(1) {
+        display: none;
+    }
+
+    .footer img:nth-child(2) {
+        display: unset;
+    }
+
+    .footer h3, .footer h3 {
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+    nav, #trending, .covid, #protokol-3m-covid, #rumah-sakit, .footer {
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
+
+    nav {
+        display: flex;
+        background: #FFFFFF !important;
+        height: unset;
+    }
+
+    nav img {  
+        width: 55px !important;
+    }
+
+    nav ul li {
+        margin: 0px !important;
+    }
+
+    nav #button {
+        width: unset !important;
+        height: 100% !important;
+        padding: 0px;
+        box-shadow: none;
+        background: none;
+        border-radius: 0px !important;
+        border-top: 2px solid #C4C4C4 !important;
+        color: #000000;
+        text-align: start;
+        padding-top: 10px;
+    }
+
+    #nav-home {
+        border-bottom: 0px solid #21A8FB;
+        border-radius: 0px;
+    }
+
+    .covid {
+        margin-top: 2rem;
+    }
+
+    .covid .col-md-auto {
+        border-right: 0px solid #C4C4C4;
+        border-left: 0px solid #C4C4C4;
+        padding: 0 !important;
+        margin-top: unset !important;
+    }
+
+    .covid .col {
+        line-height: 30px;
+    }
+
+    .covid b {
+        font-size: 18px;
+    }
+
+    .covid span {
+        font-size: 16px;
+    }
+
+    .covid .container {
+        margin-top: 5rem !important;
+        margin-bottom: 5rem !important;
+    }
+
+    .covid .row {
+        flex-wrap: unset !important;
+    }
+
+    .covid .row, .covid svg {
+        margin-top: 2rem;
+    }
+
+    #protokol-3m-covid {
+        margin-top: 1rem !important;
+        display: unset !important;
+    }
+
+    #protokol-3m-covid .col-sm-6 {
+        width: 100%;
+        max-width: 100% !important;
+        padding: 1rem 2rem !important;
+        justify-content: center !important;
+    }
+
+    #protokol-3m-covid svg {
+        width: 50%;
+    }
+
+    #protokol-3m-covid h2 {
+        width: 100% !important;
+        font-size: 14px !important;
+        text-align: center;
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+
+    table th, table td {
+        font-size: 13px !important;
+    }
+    
+    #rumah-sakit {
+        background: rgba(196, 196, 196, 0.15) !important;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    #rumah-sakit h2 {
+        font-size: 24px !important;
+    }
+
+    .footer {
+        margin-top: 3rem !important;
+        padding: 0px 3rem;
+        width: 100%;
+    }
+
+    .footer, .footer .col-sm-5, .footer .col, .footer h3, .footer p {
+        width: 100%;
+    }
+
+    .footer .col {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-basis: unset !important;
+    }
+
+    .footer img:nth-child(1) {
+        display: none;
+    }
+
+    .footer img:nth-child(2) {
+        display: unset;
+    }
+
+    .footer h3, .footer h3 {
+        margin-top: 30px !important;
+    }
+}

@@ -1,0 +1,603 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------
+[Judul]
+
+0. Default
+1. Nav
+2. Content
+3. Sidebar
+4. Rekomendasi
+5. Footer
+6. Copyright
+-------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------
+[0. Default]
+*------------------------------------------------------------------*/
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../font/Poppins.woff2');
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF !important;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-auto {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.navbar-brand {
+    margin-right: 0px !important;
+}
+
+input:active,
+input:focus,
+input:hover,
+button:active,
+button:focus,
+a:hover {
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+nav {
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+
+
+/*-------------------------------------------------------------------
+[1. Nav]
+*------------------------------------------------------------------*/
+nav {
+    display: flex;
+    background: #FFFFFF !important;
+    height: 100px;
+}
+
+nav button {
+    border: none !important;
+}
+
+nav button:focus {
+    outline: none !important;
+}
+
+nav ul li {
+    margin: 0px 10px !important;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #000000 !important;
+}
+
+nav img {
+    width: 45px;
+}
+
+nav #button {
+    width: 123px !important;
+    background: #21A8FB;
+    box-shadow: 3px 3px 4px rgba(176, 225, 255, 0.9);
+    border-radius: 10px !important;
+    height: 49px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.10);
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px !important;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 576px) {
+    #navbarSupportedContent {
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        width: 280px;
+        height: 100%;
+        overflow: auto;
+        padding: 1rem 0.5rem !important;
+    }
+
+    .menu-overlay {
+        display: none;
+        background: #000;
+        bottom: 0;
+        left: 0;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 49;
+    }
+}
+
+
+
+/*-------------------------------------------------------------------
+[2. Content]
+*------------------------------------------------------------------*/
+#content {
+    margin-top: 1rem;
+}
+
+#content #banner {
+    width: 100%;
+    height: 550px;
+	border: 0px !important;
+    margin-bottom: 1rem;
+}
+
+#content .card-img-overlay {
+	border-radius: 15px;
+	background: linear-gradient( 359.98deg, rgba(1, 42, 74, 0.72) -4.7%, rgba(38, 34, 34, 0) 93.2%);
+	justify-content: flex-end !important;
+}
+
+#content .card-img-overlay h1 {
+	font-size: 36px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	margin: 0 0 3rem 2rem !important;
+    text-align: start !important;
+}
+
+#content #banner img {
+    border-radius: 15px !important;
+    height: 100% !important;
+    margin-bottom: 0 !important;
+}
+
+#content img {
+    display: block;
+    object-fit: cover;
+    height: 300px;
+	max-height: 100%;
+}
+
+#content #isi {
+    padding: 0rem 1rem !important;
+}
+
+#content h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 600 !important;
+    font-size: 28px;
+    text-transform: capitalize;
+    line-height: 34px !important;
+    color: #012A4A;
+    margin-bottom: 2rem;
+}
+
+#content h2 {
+    font-size: 22px;
+}
+
+#content h3 {
+    font-size: 20px;
+}
+
+#content h4 {
+    font-size: 18px;
+}
+
+#content p {
+    line-height: 1.7 !important;
+}
+
+#content #author,
+#content #date {
+    color: #999999;
+    font-size: 14px;
+}
+
+#content #author {
+    border-right: 1px solid #C4C4C4;
+    padding-right: 0.5rem;
+}
+
+#content img {
+    width: 100% !important;
+    height: unset !important;
+    margin-bottom: 1rem;
+}
+
+#content #small-img {
+    width: 30% !important;
+    height: 30% !important;
+}
+
+#content #tags {
+    display: flex;
+    width: 100%;
+    margin: 2rem 0rem;
+}
+
+#content #tags li {
+    list-style: none;
+    margin-right: 0.5rem;
+}
+
+#content #tags a {
+    font-size: 14px;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid #21A8FB;
+    transition: 0.2s ease-in-out;
+}
+
+#content #tags a:hover {
+    color: #FFFFFF;
+    background: #21A8FB;
+}
+
+#content #komentar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#content textarea {
+    width: 100%;
+    height: 100px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1em;
+    color: #676767;
+    transition: border 0.5s;
+    border: solid 2px #98d4f3;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+    margin-top: 1rem;
+}
+
+#content button {
+    display: flex;
+    align-items: center;
+    background: #21A8FB;
+    color: #FFFFFF;
+    height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none !important;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#content .sharethis-inline-share-buttons {
+    margin: 1rem 0rem 0.5rem 0rem;
+}
+
+#content #st-1 .st-btn>img {
+    width: unset !important;
+}
+
+
+/*-------------------------------------------------------------------
+[3. Sidebar]
+*------------------------------------------------------------------*/
+#sidebar {
+    padding: 0rem 2rem !important;
+}
+
+#sidebar form {
+    width: 100% !important;
+}
+
+#sidebar input {
+    width: 100% !important;
+    padding: 1rem;
+    font-size: 17px;
+    border: none;
+    background: #F3F8FD;
+}
+
+#sidebar li {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+#sidebar a {
+    display: flex;
+    transition: 0.3s;
+}
+
+#sidebar span {
+    font-size: 18px;
+    height: 100%;
+    color: #999999;
+}
+
+#sidebar h3 {
+    border-top: 2px solid #f0f0f0;
+    margin-top: 1.5rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #21409A;
+    padding-top: 1rem;
+}
+
+#sidebar h4,
+#sidebar #category a {
+    font-size: 14px;
+    color: #3b3b3b;
+    line-height: 1.5;
+    transition: 0.3s ease-in-out;
+}
+
+#sidebar h4:hover,
+#sidebar #category a:hover {
+    color: #21409A !important;
+}
+
+#sibebar h4 {
+    font-size: 14px;
+}
+
+#sidebar img {
+    height: 100% !important;
+    margin-bottom: 0px !important;
+}
+
+#sidebar small,
+#sidebar #views {
+    font-size: 12px
+}
+
+#sidebar #category i {
+    margin-right: 5px;
+}
+
+#sidebar ul {
+    margin-bottom: 0 !important;
+}
+
+
+
+/*-------------------------------------------------------------------
+[4. Rekomendasi]
+*------------------------------------------------------------------*/
+#rekomendasi {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+#col-card {
+    padding: 2rem !important;
+}
+
+#rekomendasi-card {
+    width: 100% !important;
+    height: 100%;
+    background: #FFFCFC;
+    box-shadow: 0px 0px 5px 1px #EEEEEE;
+    border-radius: 15px !important;
+}
+
+#rekomendasi img {
+    height: 300px;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 1.5rem 1rem !important;
+}
+
+#rekomendasi-card h2 {
+    font-size: 22px !important;
+    line-height: 25px;
+    color: #000000;
+}
+
+.container-fluid a,
+.container-fluid a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #C4C4C4;
+}
+
+
+
+/*-------------------------------------------------------------------
+[5. Footer]
+*------------------------------------------------------------------*/
+.footer {
+    margin-top: 5rem;
+    padding: 50px;
+    border: 1px solid rgba(229, 229, 229, 0.7);
+}
+
+.footer .col-sm-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #012A4A;
+    margin-bottom: 1.5rem;
+}
+
+.footer a {
+    font-size: 14px;
+    color: #012A4A;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer img:nth-child(2) {
+    display: none;
+}
+
+#accordion {
+    padding: 2rem;
+    width: 100%;
+    display: none;
+}
+
+#accordion .card,
+#accordion .card-header,
+#accordion .card-body {
+    border: none !important;
+    background: none !important;
+    padding: 0px !important;
+}
+
+#accordion .card-header {
+    margin-bottom: 1rem;
+}
+
+#accordion .btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    color: inherit !important;
+    text-decoration: none !important;
+    padding: 0px !important;
+}
+
+.footer h5 {
+    font-weight: 600 !important;
+    font-size: 18px;
+    color: #000000;
+}
+
+.footer .col .d-flex p {
+    margin-right: 20px;
+}
+
+.card-header .icon-chevron-thin-down {
+	transform: rotate(180deg);
+	transition: .3s transform ease-in-out;
+}
+
+.card-header .collapsed .icon-chevron-thin-down {
+    transform: rotate(0deg);
+}
+
+
+
+/*-------------------------------------------------------------------
+[6. Copyright]
+*------------------------------------------------------------------*/
+.copyright {
+    padding: 2rem;
+}
+
+.copyright span {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: #8A8C97;
+}

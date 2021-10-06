@@ -1,0 +1,184 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------
+[Isi]
+
+0. Default
+1. Nav
+2. Content
+3. Footer
+4. Copyright
+-------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 576px) { 
+
+    /*-------------------------------------------------------------------
+    [0. Default]
+    *------------------------------------------------------------------*/
+    .content, .footer {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    h1 {
+        font-size: 24px !important;
+    }
+
+    /*-------------------------------------------------------------------
+    [1. Nav]
+    *------------------------------------------------------------------*/
+    nav {
+        display: flex;
+        background: linear-gradient(143.38deg, rgba(33, 168, 251, 0.58) 4.22%, rgba(33, 168, 251, 0) 146.37%) !important;
+        height: unset;
+        padding-right: 1rem !important;
+        padding-left: 0rem !important;
+    }
+
+    .navbar-collapse {
+        background: #FFFFFF;
+    }
+    
+    nav img {
+        padding-left: 1rem !important;
+    }
+    
+    nav a {
+        font-size: 14px !important;
+    }
+
+    nav ul li {
+        margin: 0px !important;
+    }
+
+    nav .mobile {
+        display: unset !important;
+    }
+
+    nav .mobile img {
+        padding: 0 !important;
+        width: 40px;
+    }
+    
+    nav #button {
+        display: none;
+    }
+
+    /*-------------------------------------------------------------------
+    [2. Content]
+    *------------------------------------------------------------------*/
+    .content {
+        margin-top: 1rem;
+    }
+
+    .content .card-deck {
+        flex-direction: unset !important;
+        justify-content: center !important;
+    }
+
+    .content h2 {
+        font-size: 15px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .content a {
+        width: 40% !important;
+        margin: 0px 15px !important;
+    }
+
+    .content .card {
+        margin-bottom: 0rem !important;
+    }
+
+    .content .card-body {
+        text-align: center;
+        padding: 1rem 0.5rem !important;
+    }
+
+    .content .card-text {
+        margin-bottom: 0.25rem !important;
+    }
+
+    .content img {
+        border-radius: 20px !important;
+        height: 150px;
+    }
+
+    .content .rating-container .empty-stars, .content .rating-xs {
+        font-size: 17px;
+    }
+
+    .content .caption span {
+        font-size: 18px;
+    }
+
+    /*-------------------------------------------------------------------
+    [3. Footer]
+    *------------------------------------------------------------------*/
+    .footer {
+        margin-top: 3rem;
+        padding-bottom: 0px !important;
+    }
+
+    .footer, .footer .col-sm-5, .footer .col, .footer h3, .footer p {
+        width: 100%;
+    }
+    
+    .footer .col-sm-5 {
+        display: unset !important;
+    }
+
+    .footer .col {
+        display: none;
+    }
+    
+    .footer img:nth-child(1) {
+        display: none;
+    }
+
+    .footer img:nth-child(2) {
+        display: unset;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer h3, .footer h3 {
+        margin-top: 30px !important;
+    }
+ 
+    #accordion {
+        display: unset;
+    }
+
+    #collapseFour img {
+        display: unset !important;
+    }
+      
+    #collapseFour .d-flex p {
+        width: unset !important;
+        margin-right: 0px !important;
+    }
+
+    #collapseFour .d-flex {
+        justify-content: space-around;
+    }
+    
+    /*-------------------------------------------------------------------
+    [4. copyright]
+    *------------------------------------------------------------------*/
+    .copyright span {
+        font-size: 12px;
+    }
+}

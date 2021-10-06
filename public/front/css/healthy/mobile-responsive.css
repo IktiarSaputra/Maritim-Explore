@@ -1,0 +1,185 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 576px) {
+    .covid, #protokol-3m-covid, #rumah-sakit, .footer {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+
+    nav {
+        display: flex;
+        background: linear-gradient(143.38deg, rgba(33, 168, 251, 0.58) 4.22%, rgba(33, 168, 251, 0) 146.37%) !important;
+        height: unset;
+        padding-right: 1rem !important;
+        padding-left: 0rem !important;
+    }
+
+    .navbar-collapse {
+        background: #FFFFFF;
+    }
+    
+    nav img {
+        padding-left: 1rem !important;
+    }
+    
+    nav a {
+        font-size: 14px !important;
+    }
+
+    nav ul li {
+        margin: 0px !important;
+    }
+
+    nav .mobile {
+        display: unset !important;
+    }
+    
+    nav #button {
+        display: none;
+    }
+
+    #nav-home {
+        border-bottom: 0px solid #21A8FB;
+        border-radius: 0px;
+    }
+
+    .covid {
+        margin-top: 2rem;
+    }
+
+    .covid .col-md-auto {
+        border-right: 0px solid #C4C4C4;
+        border-left: 0px solid #C4C4C4;
+        padding: 0 !important;
+        margin-top: unset !important;
+    }
+
+    .covid .col {
+        line-height: 30px;
+    }
+
+    .covid b {
+        font-size: 14px;
+    }
+
+    .covid span {
+        font-size: 12px;
+    }
+
+    .covid .container {
+        margin-top: 3rem !important;
+        margin-bottom: 0rem !important;
+    }
+
+    .covid .col,  .covid .col-lg-2,  .covid .col-md-auto {
+        width: auto !important;
+    }
+
+    .covid .row {
+        flex-wrap: unset !important;
+    }
+
+    .covid .row, .covid svg {
+        margin-top: 2rem;
+    }
+
+    #protokol-3m-covid {
+        margin-top: 1rem !important;
+        display: unset !important;
+    }
+
+    #protokol-3m-covid .col-sm-6 {
+        width: 100%;
+        padding: 0rem 2rem !important;
+        justify-content: center !important;
+    }
+
+    #protokol-3m-covid svg {
+        width: 50%;
+    }
+
+    #protokol-3m-covid h2 {
+        width: 100% !important;
+        font-size: 14px !important;
+        text-align: center;
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+
+    table th, table td {
+        font-size: 13px !important;
+    }
+    
+    #rumah-sakit {
+        background: rgba(196, 196, 196, 0.15) !important;
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    #rumah-sakit h2 {
+        font-size: 24px !important;
+    }
+
+    .footer {
+        margin-top: 3rem;
+        padding-bottom: 0px !important;
+    }
+
+    .footer, .footer .col-sm-5, .footer .col, .footer h3, .footer p {
+        width: 100%;
+    }
+    
+    .footer .col-sm-5 {
+        display: unset !important;
+    }
+
+    .footer .col {
+        display: none;
+    }
+    
+    .footer img:nth-child(1) {
+        display: none;
+    }
+
+    .footer img:nth-child(2) {
+        display: unset;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer h3, .footer h3 {
+        margin-top: 30px !important;
+    }
+ 
+    #accordion {
+        display: unset;
+    }
+
+    #collapseFour img {
+        display: unset !important;
+    }
+      
+    #collapseFour .d-flex p {
+        width: unset !important;
+        margin-right: 0px !important;
+    }
+
+    #collapseFour .d-flex {
+        justify-content: space-around;
+    }
+
+    .copyright span {
+        font-size: 12px;
+    }
+}

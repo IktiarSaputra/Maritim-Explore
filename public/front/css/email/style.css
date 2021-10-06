@@ -1,0 +1,287 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------
+[Judul]
+
+0. Default
+1. Nav
+2. Content
+3. Footer
+4. Copyright
+-------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------
+[0. Default]
+*------------------------------------------------------------------*/
+@font-face {
+    font-family: 'Poppins'; 
+	src: url('../../font/Poppins.ttf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+	background: #FFFFFF !important;
+	overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, 
+.col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, 
+.col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, 
+.col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, 
+.col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, 
+.col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.navbar-brand {
+    margin-right: 0px !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+nav  {
+	padding-right: 5rem !important;
+	padding-left: 5rem !important;
+}
+
+
+
+/*-------------------------------------------------------------------
+[1. Nav]
+*------------------------------------------------------------------*/
+nav {
+    display: flex;
+    background: #FFFFFF;
+	height: 100px;
+	transition: 0.3s ease-in-out;
+}
+
+nav button {
+	border: none !important;
+}
+
+nav button:focus {
+	outline: none !important;
+}
+
+nav ul li {
+    margin: 0px 10px !important;
+}
+
+nav ul li a {
+    font-size: 18px;
+	color: #000000 !important;
+}
+
+nav img {
+    width: 45px;
+}
+
+nav #button { 
+	width: 123px !important;
+	background: #21A8FB;
+	box-shadow: 3px 3px 4px rgba(176, 225, 255, 0.9);
+	border-radius: 10px !important;
+	height: 49px;
+    font-weight: bold;
+    cursor: pointer;
+	overflow:hidden;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.10);
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px !important;
+	font-weight: normal;
+}
+
+#nav-home {
+	border-bottom: 2px solid #21A8FB;
+	border-radius: 1px;
+	border-width: medium;
+	font-weight: 500 !important;
+}
+
+@media only screen and (max-width: 576px) {
+	#navbarSupportedContent {
+	  position: fixed;
+	  top: 0;
+	  z-index: 99;
+	  width: 280px;
+	  height: 100%;
+	  overflow: auto;
+	  padding: 1rem 0.5rem !important;
+	}
+	.menu-overlay {
+	  display: none;
+	  background: #000;
+	  bottom: 0;
+	  left: 0;
+	  opacity: 0.5;
+	  filter: alpha(opacity=50);
+	  position: fixed;
+	  right: 0;
+	  top: 0;
+	  z-index: 49;
+	}
+}
+
+
+
+/*-------------------------------------------------------------------
+[2. Content]
+*------------------------------------------------------------------*/
+#content {
+	padding: 1rem 0rem !important;
+}
+
+#content .card-deck {
+	width: 100%;
+}
+
+#content .card {
+	border: none;
+	box-shadow: 0 3px 2px rgba(0,0,0,0.07);
+	margin: 0rem 1rem 3rem 1rem;
+	transition: 0.3s ease-in-out;
+}
+
+#content .card:hover {
+	transform: scale(1.05);
+}
+
+#content .card img {
+	width: 100%;
+	height: 200px;
+}
+
+#content h2 {
+	font-size: 14px !important;
+	color: #000000;
+}
+
+#content #email {
+	font-size: 12px;
+	color: #C4C4C4 !important;
+}
+
+
+
+/*-------------------------------------------------------------------
+[3. Footer]
+*------------------------------------------------------------------*/
+.footer {
+	margin-top: 5rem;
+	padding: 50px;
+	border: 1px solid rgba(229, 229, 229, 0.7);
+}
+
+.footer .col-sm-5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer h3 {
+	font-weight: 600;
+	font-size: 16px;
+	color: #012A4A;
+	margin-bottom: 1.5rem;
+}
+
+.footer a {
+	font-size: 14px;
+	color: #012A4A;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer img:nth-child(2) {
+	display: none;
+}
+
+#accordion {
+	padding: 2rem;
+	width: 100%;
+	display: none;
+}
+
+#accordion .card, #accordion .card-header, #accordion .card-body {
+	border: none !important;
+	background: none !important;
+	padding: 0px !important;
+}
+
+#accordion .card-header {
+	margin-bottom: 1rem;
+}
+
+#accordion .btn {
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+	color: inherit !important;
+	text-decoration: none !important;
+	padding: 0px !important;
+}
+
+.footer h5 {
+	font-weight: 600 !important;
+	font-size: 18px;
+	color: #000000;
+}
+
+.footer .col .d-flex p {	
+	margin-right: 20px;
+}
+
+.card-header .icon-chevron-thin-down {
+	transform: rotate(180deg);
+	transition: .3s transform ease-in-out;
+}
+
+.card-header .collapsed .icon-chevron-thin-down {
+	transform: rotate(0deg);
+}
+
+
+
+/*-------------------------------------------------------------------
+[4. Copyright]
+*------------------------------------------------------------------*/
+.copyright {
+	padding: 2rem;
+}
+
+.copyright span {
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+	color: #8A8C97;
+}

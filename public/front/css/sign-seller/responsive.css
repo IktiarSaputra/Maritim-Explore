@@ -1,0 +1,89 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 576px) {
+    nav {
+        margin-bottom: 1rem;
+    }
+
+    .col-sm-6 {
+        padding: 0 0rem !important;
+    }
+
+    .cube {
+        padding: 1rem;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    #d-flex {
+        display: unset !important;
+    }
+    
+    #d-flex h1 {
+        margin: 2rem 0 !important;
+    }
+
+    .col-md-6 button {
+        font-size: 18px !important;
+    }
+
+    #login {
+        padding: 3rem 1rem !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 800px) {
+    #d-flex {
+        display: unset !important;
+    }
+    
+    #d-flex h1 {
+        margin: 2rem 0 !important;
+    }
+
+    .cube {
+        padding: 1rem;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+    .cube {
+        padding: 1rem;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    
+    #d-flex {
+        display: unset !important;
+    }
+    
+    #d-flex h1 {
+        margin: 2rem 0 !important;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .cube {
+        padding: 1rem;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    .cube {
+        padding: 2rem;
+    }
+    
+}

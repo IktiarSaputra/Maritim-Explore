@@ -1,0 +1,88 @@
+@extends('layouts.master')
+
+@section('title')
+Add New Destination
+@endsection
+
+@section('css')
+<meta name="csrf-token" content="{{csrf_token()}}">
+<link rel="stylesheet" href="{{asset('assets/css/select2.min.css')}}">
+@endsection
+
+@section('content')
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <form action="{{route('travel.store')}}" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <div class="form-group">
+                        <label for="judul">Judul</label>
+                        <input type="text" class="form-control" name="title" maxlength="80" id="judul" required
+                            placeholder="Judul Post">
+                    </div>
+                    <div class="form-group">
+                        <input type="hidden" class="form-control" name="user_id" value="{{Auth::user()->id}}"
+                            placeholder="Judul Post">
+                    </div>
+                    <div class="form-group">
+                        <label for="konten">Konten</label>
+                        <textarea id="my-editor" name="content" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="gambar">Gambar</label>
+                        <input type="file" class="form-control" name="gambar" id="gambar" required
+                            placeholder="Judul Post">
+                    </div>
+                    <div class="form-group row m-auto">
+                        <button type="submit" class="btn btn-success btn-block"><i class="mdi mdi-content-save"></i>
+                            Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
+
+@section('js')
+<script src="{{asset('assets/js/select2.min.js')}}"></script>
+<script src="{{asset('ckeditor/ckeditor.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.tags').select2();
+    });
+</script>
+
+{{-- <script>
+    CKEDITOR.replace('my-editor', {
+        filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',
+        filebrowserImageUploadUrl: '/laravel-filemanager/upload?type=Images&_token=',
+        filebrowserBrowseUrl: '/laravel-filemanager?type=Files',
+        filebrowserUploadUrl: '/laravel-filemanager/upload?type=Files&_token='
+    });
+</script> --}}
+
+{{-- <script>
+    
+    var CSRFToken = $('meta[name="csrf-token"]')
+    var options = {
+        filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',
+        filebrowserImageUploadUrl: '/laravel-filemanager/upload?type=Images&_token=',
+        filebrowserBrowseUrl: '/laravel-filemanager?type=Files',
+        filebrowserUploadUrl: '/laravel-filemanager/upload?type=Files&_token='
+    };
+</script> --}}
+{{-- <script>
+    CKEDITOR.replace('my-editor', options);
+</script> --}}
+<script>
+    //HUBUNGKAN CKEDITOR DENGAN TEXTAREA YANG BERNAMA CONTENT
+    //ADAPUN KONFIGURASI UPLOAD URLNYA MENGARAH KE ROUTE POST.IMAGE
+    CKEDITOR.replace('my-editor', {
+        filebrowserUploadUrl: "{{route('travel.image', ['_token' => csrf_token() ])}}",
+        filebrowserUploadMethod: 'form'
+    });
+</script>
+@endsection

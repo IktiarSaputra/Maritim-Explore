@@ -1,0 +1,125 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+@media only screen and (max-width: 414px) { 
+    .container {
+        margin-top: 1rem;
+    }
+
+    .col-md-6 {
+        padding: 1rem !important;
+    }
+
+    .container #product-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 70% !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .breadcrumb a, .breadcrumb-item {
+        font-size: 12px !important;
+    }
+
+    .col-md-6:nth-child(1) {
+        border: none;
+    }
+
+    h1 {
+        font-size: 25px !important;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #description {
+        margin-top: 3rem;
+    }
+
+    button {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 576px) { 
+    .container {
+        margin-top: 1rem;
+    }
+
+    .col-md-6 {
+        padding: 1rem !important;
+    }
+
+    .container #product-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 70% !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .breadcrumb a, .breadcrumb-item {
+        font-size: 14px !important;
+    }
+
+    .col-md-6:nth-child(1) {
+        border: none;
+    }
+
+    h1 {
+        font-size: 25px !important;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #description {
+        margin-top: 3rem;
+    }
+
+    button {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 800px) {
+    .container {
+        margin-top: 1rem;
+    }
+
+    .col-md-6 {
+        padding: 1rem !important;
+    }
+
+    .col-md-6:nth-child(1) {
+        border: none;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+    .container {
+        margin-top: 1rem;
+    }
+
+    .col-md-6 {
+        padding: 1rem !important;
+    }
+
+    .col-md-6:nth-child(1) {
+        border: none;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+}

@@ -1,0 +1,236 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------
+[Judul]
+
+0. Default
+1. Nav
+2. Hero
+3. Top Content
+4. Content
+5. Footer
+6. Copyright
+-------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 576px) { 
+
+    /*-------------------------------------------------------------------
+    [0. Default]
+    *------------------------------------------------------------------*/
+    nav, .footer {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    .container {
+        max-width: unset !important;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+
+    /*-------------------------------------------------------------------
+    [1. Nav]
+    *------------------------------------------------------------------*/
+    nav {
+        display: flex;
+        background: linear-gradient(143.38deg, rgba(33, 168, 251, 0.58) 4.22%, rgba(33, 168, 251, 0) 146.37%) !important;
+        height: unset;
+        padding-right: 1rem !important;
+        padding-left: 0rem !important;
+    }
+
+    .navbar-collapse {
+        background: #FFFFFF;
+    }
+    
+    nav img {
+        padding-left: 1rem !important;
+    }
+    
+    nav a {
+        font-size: 14px !important;
+    }
+
+    nav ul li {
+        margin: 0px !important;
+    }
+
+    nav #button {
+        width: unset !important;
+        height: 100% !important;
+        padding: 0px;
+        box-shadow: none;
+        background: none;
+        border-radius: 0px !important;
+        border-top: 2px solid #C4C4C4 !important;
+        font-size: 14px !important;
+        color: #000000;
+        text-align: start;
+        padding-top: 10px;
+    }
+
+    #nav-home {
+        border-bottom: 0px solid #21A8FB;
+        border-radius: 0px;
+    }
+
+    /*-------------------------------------------------------------------
+    [2. Hero]
+    *------------------------------------------------------------------*/
+    #hero {
+        margin-top: 1rem;
+    }
+
+    h1 {
+        font-size: 24px !important;
+    }
+
+    #hero p {
+        font-size: 14px !important;
+    }
+
+    #hero input {
+        padding: 0rem 1rem;
+    }
+    
+    #hero button {
+        padding: 0.8rem 1.2rem;
+        font-size: 14px;
+    }
+
+    /*-------------------------------------------------------------------
+    [3. Top Content]
+    *------------------------------------------------------------------*/
+    #top-content {
+        padding-left: 2.5rem !important;
+        padding-right: 2.5rem !important;
+        margin-top: 3rem;
+    }
+
+    section img {
+        height: 220px;
+    }
+
+    section h2, section p {
+        font-size: 14px !important;
+    }
+    
+    /*-------------------------------------------------------------------
+    [4. Content]
+    *------------------------------------------------------------------*/
+    #content {
+        margin-top: 3rem !important;
+    }
+
+    #content .col-sm-6 {
+        width: 50% !important;
+    }
+
+    #content .card {
+        margin-bottom: 0rem !important;
+    }
+
+    #content img {
+        height: 165px !important; 
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+
+    #content .card-img-overlay {
+        background: none;
+        position: unset !important;
+    }
+
+    #content .card-img-overlay h2 {
+        text-align: center;
+        font-size: 14px !important;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    #content .card-img-overlay a {
+        font-size: 13px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #C4C4C4;
+        margin-top: 0.5rem !important;
+    }
+
+    #content .card-img-overlay a:hover {
+        color: #000000 !important;
+    }
+
+    #content .card-title {
+        width: 100%;
+        text-align: start !important;
+    }
+
+    /*-------------------------------------------------------------------
+    [5. Footer]
+    *------------------------------------------------------------------*/
+    .footer {
+        margin-top: 3rem;
+        padding-bottom: 0px !important;
+    }
+
+    .footer, .footer .col-sm-5, .footer .col, .footer h3, .footer p {
+        width: 100%;
+    }
+    
+    .footer .col-sm-5 {
+        display: unset !important;
+    }
+
+    .footer .col {
+        display: none;
+    }
+    
+    .footer img:nth-child(1) {
+        display: none;
+    }
+
+    .footer img:nth-child(2) {
+        display: unset;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer h3, .footer h3 {
+        margin-top: 30px !important;
+    }
+ 
+    #accordion {
+        display: unset;
+    }
+
+    #collapseFour img {
+        display: unset !important;
+    }
+      
+    #collapseFour .d-flex p {
+        width: unset !important;
+        margin-right: 0px !important;
+    }
+
+    #collapseFour .d-flex {
+        justify-content: space-around;
+    }
+    
+    /*-------------------------------------------------------------------
+    [6. copyright]
+    *------------------------------------------------------------------*/
+    .copyright span {
+        font-size: 12px;
+    }
+}

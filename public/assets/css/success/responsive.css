@@ -1,0 +1,59 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+@media only screen and (max-width: 414px) { 
+    #content img {
+        width: 100%;
+    }
+
+    #bold {
+        font-size: 25px !important;
+    }
+
+    .breadcrumb a, .breadcrumb-item {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) { 
+    #content img {
+        width: 100%;
+    }
+
+    #bold {
+        font-size: 25px !important;
+    }
+ 
+    .breadcrumb a, .breadcrumb-item {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 800px) {
+    #content img {
+        width: 100%;
+    }
+
+    #bold {
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+    #content img {
+        width: 100%;
+    }
+
+    #bold {
+        font-size: 25px !important;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+}

@@ -1,0 +1,395 @@
+/*------------------------------------------------------------------
+Copyright 2021 By: RPL SMKN 1 JAKARTA
+
+Project		:	Maritime Explore
+Created	    :	19/02/2021
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------
+[Judul]
+
+0. Default
+1. Nav
+2. Content
+3. Footer
+4. Copyright
+-------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------
+[0. Default]
+*------------------------------------------------------------------*/
+@font-face {
+    font-family: 'Poppins'; 
+	src: url('../../font/Poppins.woff2');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+	background: #FFFFFF !important;
+	overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+	font-family: 'Poppins', sans-serif !important;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, 
+.col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, 
+.col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, 
+.col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, 
+.col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, 
+.col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.navbar-brand {
+    margin-right: 0px !important;
+}
+
+
+
+/*-------------------------------------------------------------------
+[1. Nav]
+*------------------------------------------------------------------*/
+nav {
+    display: flex;
+    background: #FFFFFF !important;
+    height: 100px;
+    padding-right: 5rem !important;
+	padding-left: 5rem !important;
+}
+
+nav button {
+	border: none !important;
+}
+
+nav button:focus {
+	outline: none !important;
+}
+
+nav ul li {
+    margin: 0px 10px !important;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #000000 !important;
+}
+
+nav img {
+    width: 45px;
+}
+
+nav .mobile {
+	display: none !important;
+}
+
+nav #button { 
+	padding: 0 !important;
+	margin: 0 !important;
+	background: none !important;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+	#navbarSupportedContent {
+	  position: fixed;
+	  top: 0;
+	  z-index: 99;
+	  width: 280px;
+	  height: 100%;
+	  overflow: auto;
+	  padding: 1rem 0.5rem !important;
+	}
+	.menu-overlay {
+	  display: none;
+	  background: #000;
+	  bottom: 0;
+	  left: 0;
+	  opacity: 0.5;
+	  filter: alpha(opacity=50);
+	  position: fixed;
+	  right: 0;
+	  top: 0;
+	  z-index: 49;
+	}
+}
+
+
+
+/*-------------------------------------------------------------------
+[2. Breadcrumb]
+*------------------------------------------------------------------*/
+.breadcrumb {
+    background: #FFFFFF !important;
+    padding: 2rem !important;
+    font-weight: 300;
+    font-size: 18px;
+    color: #C4C4C4;
+}
+
+.breadcrumb a, .breadcrumb a:hover {
+    color: inherit;
+}
+
+.breadcrumb .active {
+    font-size: 18px;
+    color: #000000 !important;
+}
+
+
+
+/*-------------------------------------------------------------------
+[3. Content]
+*------------------------------------------------------------------*/
+#content {
+    margin-top: 3rem;
+}
+
+h1 {
+    font-weight: bold !important;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+form {
+    width: 100%;
+}
+
+label, #quantity {
+    width: 100%;
+    font-weight: bold !important;
+    font-size: 20px;
+    line-height: 30px;
+    color: #012A4A;
+    margin-top: 20px;
+}
+
+input { 
+    width: 100% !important;
+    background: rgba(196, 196, 196, 0.24);
+	height: 62px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    color: #979797;
+}
+
+input:focus, button:focus {
+    outline: none !important;
+}
+
+.col-md-6 {
+    padding: 5rem !important;
+}
+
+.col-md-6:nth-child(1) {
+    border-right: 2px solid #C4C4C4;
+    transform: rotate(-0.14deg);
+}
+
+.col-md-6:nth-child(2) #price {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: -0.5rem !important;
+}
+
+.col-md-6:nth-child(2) b {
+    font-size: 40px;
+    color: #000000;
+}
+
+#checkout {
+    margin-top: 3rem !important;
+    width: 393px;
+    height: 62px;
+    background: #21A8FB;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px !important;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#quantity1 {
+    background: rgba(245, 117, 81, 0.62);
+    width: 55px !important;
+    height: 53px !important;
+    margin-top: 0px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    border-radius: 15px;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+#quantity1:active {
+    background: rgba(248, 81, 35, 0.62) !important;
+
+}
+
+#quantity2 {
+    background: #BDE4FF !important;
+    width: 55px !important;
+    height: 53px !important;
+    margin-top: 0px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#quantity2:active {
+    background: #63b9f7 !important;
+}
+
+.icon-minus, .icon-plus {
+    color: #FFFFFF;
+}
+
+#quantity-input {
+    width: 109px !important;
+    height: 53px;
+    text-align: center;
+    border-radius: 0px !important;
+}
+
+#cart {
+    margin: 1rem 0px 2rem 0px !important;
+    width: 393px;
+    height: 62px;
+    border: 1px solid #21A8FB !important;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: #FFFFFF;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #21A8FB;
+    cursor: pointer;
+}
+
+#price {
+    margin-top: 3rem !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+
+
+/*-------------------------------------------------------------------
+[4. Footer]
+*------------------------------------------------------------------*/
+.footer {
+	margin-top: 5rem;
+	padding: 50px;
+	border: 1px solid rgba(229, 229, 229, 0.7);
+}
+
+.footer .col-sm-5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer h3 {
+	font-weight: 600;
+	font-size: 16px;
+	color: #012A4A;
+	margin-bottom: 1.5rem;
+}
+
+.footer a {
+	font-size: 14px;
+	color: #012A4A;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer img:nth-child(2) {
+	display: none;
+}
+
+#accordion {
+	padding: 2rem;
+	width: 100%;
+	display: none;
+}
+
+#accordion .card, #accordion .card-header, #accordion .card-body {
+	border: none !important;
+	background: none !important;
+	padding: 0px !important;
+}
+
+#accordion .card-header {
+	margin-bottom: 1rem;
+}
+
+#accordion .btn {
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+	color: inherit !important;
+	text-decoration: none !important;
+	padding: 0px !important;
+}
+
+.footer h5 {
+	font-weight: 600 !important;
+	font-size: 18px;
+	color: #000000;
+}
+
+.footer .col .d-flex p {	
+	margin-right: 20px;
+}
+
+.card-header .icon-chevron-thin-down {
+	transform: rotate(180deg);
+	transition: .3s transform ease-in-out;
+}
+
+.card-header .collapsed .icon-chevron-thin-down {
+	transform: rotate(0deg);
+}
+
+
+
+/*-------------------------------------------------------------------
+[5. Copyright]
+*------------------------------------------------------------------*/
+.copyright {
+	padding: 2rem;
+}
+
+.copyright span {
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+	color: #8A8C97;
+}
